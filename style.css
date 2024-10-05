@@ -48,7 +48,6 @@ body, html {
     margin-block-end: 2.33em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    text-align: center;
     
   }
 
@@ -65,10 +64,19 @@ body, html {
 	font-weight: bold;
 	line-height: 1.5;
   }
+  
+   .textblock h3 {
+	/* This section lets you adject the h2 heading style for text in the .textblock div/ */
+	text-align: center;	
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.5;
+  }
 
 .textblock p {
     /* This section lets you adjust the text style for your paragraph element text in the textblock div. */
 	
+	text-indent: 50px;
 	font-size: 1em;
 	line-height: 1.2;
   }
