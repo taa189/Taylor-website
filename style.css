@@ -9,7 +9,7 @@ body, html {
 .hero-image {
     /* - HERO -
     This code controls your "hero image." You will need to change cats.png to match your asset */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shlawg.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("sky2.jpeg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -198,7 +198,7 @@ This code controls that cool parallax image and scrolling effect. Change the ima
 
 
 .parallax {
-    background-image: url("shlawg.jpeg");
+    background-image: url("sky.jpeg");
 
     /* Set a specific height. If you do want textual content in your parallax section you'll need to make sure that it properly fits the size you've alotted. You can opt not to set a height and just rely on it to cover (see background size below). */
     height: 600px;
